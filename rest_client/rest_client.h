@@ -22,13 +22,13 @@ namespace restful
         DWORD get(std::stringstream& data, 
                   const std::wstring& absolute_path,
                   const std::wstring& headers);
-		DWORD put(const std::string& data, 
+        DWORD put(const std::string& data, 
                   const std::wstring& absolute_path,
                   const std::wstring& headers);
         DWORD post(const std::string& data, 
                    const std::wstring& absolute_path,
                    const std::wstring& headers);
-		DWORD del(const std::wstring& absolute_path,
+        DWORD del(const std::wstring& absolute_path,
                   const std::wstring& headers);
 
     private:
