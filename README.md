@@ -26,5 +26,7 @@ For a Json library I recommend Boost ptree[http://www.boost.org/doc/libs/1_52_0/
 TODO
 --------------------------------------
 1. Return response headers
-3. Head Request
-2. Proxy support
+2. Head Request
+3. Proxy support
+4. Better error code handling
+5. Support for sending/receiving wide-character data
